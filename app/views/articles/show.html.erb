@@ -1,10 +1,12 @@
-<h1>Wikinimous</h1>
+<div class="container">
+  <%= render :partial => "navbar" %>
 
-<h2><%= @article.title %></h2>
-<p><%= @article.content %></p>
+  <h2><%= @article.title %></h2>
+  <p><%= @article.content %></p>
 
-<%= link_to "Edit article", edit_article_path %>
-<%= link_to "Delete article", 
-            article_path(@article),
-            method: :delete,
-            data: { confirm: "Are you sure?" } %>
+  <%= link_to "Edit article", edit_article_path %>
+  <%= link_to "Delete article",
+              article_path(@article),
+              method: :delete,
+              data: { confirm: "Are you sure?" } %>
+</div>

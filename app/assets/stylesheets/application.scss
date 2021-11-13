@@ -1,0 +1,21 @@
+@import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300&display=swap');
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.article-title {
+  font-family: 'Roboto Slab', serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
