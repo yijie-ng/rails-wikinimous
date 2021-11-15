@@ -5,17 +5,31 @@ h2 {
   font-family: 'Roboto Slab', serif;
 }
 
-p {
+body {
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 17px;
 }
 
-.article-title {
-  font-family: 'Roboto Slab', serif;
+article {
+  margin-bottom: 18px;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+a:link {
+  text-decoration: none;
+}
+
+.navbar-header {
+  font-size: 18px;
+  color: #777777;
+  &:hover {
+    color: #575757;
+  }
+}
+
+.navbar-new {
+  font-size: 14px;
+  color: #777777;
+  &:hover {
+    color: #575757;
+  }
 }
